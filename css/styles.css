@@ -29,3 +29,10 @@ div #mouse{
   color:white;
   padding:100px;
 }
+.contacts{
+  background-image:url("../assets/backgrounds/c_image.jpg");
+  background-size:cover;
+  padding:100px;
+  padding-top:50px;
+  color:white;
+}
