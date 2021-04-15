@@ -15,7 +15,12 @@ body{
 }
 #intro{
   color:white;
-  padding:200px;
+  padding:250px;
   background-image:url("../assets/backgrounds/h_img.jpg");
   background-position:center;
+  background-size:cover;
+}
+div #mouse{
+  position:absolute;
+  bottom:10px;
 }
