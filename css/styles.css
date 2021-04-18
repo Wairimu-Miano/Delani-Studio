@@ -36,10 +36,11 @@ div #mouse{
   background-size:cover;
   padding:100px;
   padding-top:50px;
-
+  color:white;
 }
 h2{
   padding-top:20px;
+  padding-bottom:20px;
 }
 .portfolio{
   padding:50px;
@@ -65,4 +66,15 @@ h3{
 }
 .form-floating{
   padding-bottom:20px;
+}
+.button{
+  background:transparent;
+  color:white;
+}
+#nameInput,#emailInput,#floatingTextarea{
+  background:transparent;
+  color:white;
+}
+::placeholder{
+  color:white;
 }
