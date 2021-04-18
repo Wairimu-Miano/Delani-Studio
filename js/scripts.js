@@ -23,4 +23,11 @@ $(document).ready(function(){
     $(this).hide()
     $(".fig3").show();
   });
+  $('.submit').click(function () {
+        var name = $('#nameInput').val();
+        var email = $('#emailInput').val();
+        var comment = $('#floatingTextarea');
+        var key ='c8fbd9a0cf3958e02be2822e55cfbfc5-us4';
+        alert('Hi ' + name + ', we have received your message. Thank you for reaching out to us.');
+  });
 });
