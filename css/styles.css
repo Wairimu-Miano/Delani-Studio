@@ -53,6 +53,7 @@ h1 span{
 }
 h3{
   font-size:80%;
+  font-weight:bold;
 }
 .overlay-text{
   display:none;
