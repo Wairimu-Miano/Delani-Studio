@@ -1,0 +1,10 @@
+$(document).ready(function(){
+  $(".fig1").click(function(){
+    $(this).hide()
+    $(".description1").show();
+  });
+  $(".description1").click(function(){
+    $(this).hide()
+    $(".fig1").show();
+  })
+});
