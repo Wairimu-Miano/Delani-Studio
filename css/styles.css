@@ -8,6 +8,7 @@ body{
   padding-top:15px;
   width:10px;
   padding:18px;
+  border-radius:50%;
 }
 #contact-icons{
   margin-top:10px;
@@ -24,6 +25,8 @@ body{
 #mouse{
   position:absolute;
   bottom:0;
+  margin-top:20%;
+  padding:35px 0;
 }
 .services{
   background-image:url("../assets/backgrounds/s_image.jpg");
