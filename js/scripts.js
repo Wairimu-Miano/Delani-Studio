@@ -23,10 +23,16 @@ $(document).ready(function(){
     $(this).hide()
     $(".fig3").show();
   });
+  $(".card").mouseover(function () {
+    $(this).children(".imgs").show();
+  });
+  $(".card").mouseout(function() {
+    $(this).children(".imgs").hide();
+  });
   $('.submit').click(function(){
         var name = $('#nameInput').val();
         var email = $('#emailInput').val();
-        var comment = $('#floatingTextarea');
+        var comment = $('#floatingTextarea').val();
         var key ='d1f6bc6da383ce79597b5eca6d476bd1-us1';
         alert('Hi ' + name + ', we have received your message. Thank you for reaching out to us.');
   });
