@@ -21,7 +21,7 @@ body{
   background-position:center;
   background-size:cover;
 }
-div #mouse{
+#mouse{
   position:absolute;
   bottom:0;
 }
@@ -40,7 +40,7 @@ div #mouse{
 }
 h2{
   padding-top:20px;
-  padding-bottom:20px;
+  font-weight:bold;
 }
 .portfolio{
   padding:50px;
@@ -56,14 +56,6 @@ h3{
   font-size:80%;
   font-weight:bold;
 }
-.overlay-text{
-  display:none;
-  background-color:white;
-  color:black;
-  width:100%;
-  height:100%;
-  text-align:center;
-}
 .form-floating{
   padding-bottom:20px;
 }
@@ -77,4 +69,37 @@ h3{
 }
 ::placeholder{
   color:white;
+}
+.card {
+    margin: 10px 0;
+    position: relative;
+    overflow: hidden;
+}
+.imgs{
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    background: white;
+    cursor: pointer;
+    display: none;
+    transition: all 0.5s ease;
+    opacity:0.3;
+}
+.overlay-text {
+    padding:0;
+    color: black;
+    background-color: white;
+    padding: 50px 10px;
+    font-weight: bold;
+    padding-top: 30px;
+    border: 4px solid whitesmoke;
+    line-height: 90%;
+    margin: 20% 5%;
+    overflow: hidden;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+}
+.card:hover img {
+    transform: scale(1.2);
+    transition: all 0.3s ease;
 }
