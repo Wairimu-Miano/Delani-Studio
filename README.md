@@ -5,7 +5,7 @@
 ## Description
 This web page contains various sections, heading/intro, about section, services section, what we do section, portfolio section and contact section. JQuery was used to create a hover effect when one clicks the portfolio projects/images and to allow the user to toggle between the icons and their descriptions in the what we do section. The contact form  has inputs email, name and comments and uses mailchimp API to track messages and emails.
 ## Link to github pages:
-Link: https://wairimu-miano.github.io/IP3/
+Link: https://wairimu-miano.github.io/Delani-Studio/
 Click the link to open the web page.
 ## Setup instructions
 Clone the program from the online repository.
