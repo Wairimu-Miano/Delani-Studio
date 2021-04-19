@@ -33,7 +33,7 @@ $(document).ready(function(){
       var name = $('#nameInput').val();
       var email = $('#emailInput').val();
       var comment = $('#floatingTextarea').val();
-      var key ='d1f6bc6da383ce79597b5eca6d476bd1-us1';
+      var key ='0c2201a636373bc7e4643d2229e05e12-us1';
       alert('Hi ' + name + ', we have received your message. Thank you for reaching out to us.');
   });
   $(".button").on('click', function () {
